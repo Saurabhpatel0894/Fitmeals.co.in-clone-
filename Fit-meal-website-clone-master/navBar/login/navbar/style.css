@@ -1,0 +1,140 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+#cont{
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(191, 188, 188);
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding-left: 80px;
+    line-height: 30px;
+    padding-top: -20px;
+    
+}
+
+#bold{
+    font-weight: bold;
+}
+#green{
+    color: rgb(77, 196, 77);
+    font-size: 1.5rem;
+    margin: 10px;
+     padding-top: -40px; 
+}
+#conta{
+    margin-left: 460px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+     font-size: 1.5rem;
+    font-weight: normal;
+
+}
+#conta>#search:hover{
+    color: red;
+}
+#conta>#user:hover{
+    color: red;
+}
+#conta>#bag:hover{
+    color: red;
+}
+
+#sumit{
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    /* position: fixed; */
+}   
+
+#image{
+    width: 5%;
+    padding-left: 195px;
+}
+
+#content{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: -20px;
+    position: absolute;
+    
+}
+#content>li{
+    width: auto;
+    list-style-type: none;
+    font-family: 'Acme', sans-serif;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+    
+#content li a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    display: block;
+    transition: 0.3s;
+}
+#content>li a:hover{
+    color: #8ec038;
+    text-decoration: underline;
+  
+}
+#content>li ul li{
+    display: none;
+   
+}
+#content>li:hover ul li{
+    font-size: 16px;
+    line-height: 28px;
+    width: 200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+#content>li ul li:hover{
+    background-color: #8ec038;
+    color: white;
+    border-radius: 10px;
+}
+#content>li ul li a:hover{
+    padding: 10px;
+    color: white;
+}
+#home1{
+    color: #8ec038;
+}
+#home1:hover{
+    color: white;
+}
+#button{
+    height: 60px;
+    margin-top: -20px;
+    padding: 15px 30px ;
+    border-color:white;
+    background-color: rgb(221, 57, 57);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 40px;
+    transition: 0.2s ease-in;
+}
+#button:hover{
+    background-color: rgb(61, 171, 61);
+    cursor: pointer;
+    
+}
